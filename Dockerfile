@@ -1,4 +1,4 @@
-FROM ubuntu:17.10
+FROM ubuntu:xenial
 
 # Install dependencies
 RUN apt-get update && apt-get install -y python-pip iproute2 telnet iputils-ping
